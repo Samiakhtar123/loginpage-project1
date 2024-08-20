@@ -3,9 +3,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(./background.jpg);
-    background-size: cover;
+    background-image: url(./snowy-mountain-peak-starry-galaxy-majesty-generative-ai.jpg);
+    background-size:  cover;
 }
+
 
 .form{
     border: 0.5px solid;
@@ -15,6 +16,8 @@ body{
     padding-right: 50px;
     backdrop-filter: blur(6px);
     box-shadow: 5px 10px 10px;
+    position: relative;
+    top: 100px;
 }
 
 .form h1 {
@@ -92,3 +95,145 @@ body{
     font-size: #333;
     font-weight: 600;
 }
+
+.logo{
+    font-size: 30px;
+    color: rgb(58, 209, 184);
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    right: 570px;
+    bottom: 470px;
+    text-shadow: 2px 5px 5px;
+}
+
+.img{
+    position: relative;
+    right: 550px;
+    bottom: 430px;
+    height: 100px;
+    width: 130px;
+}
+@media (min-width: 20px ) and (max-width: 480px ){
+    .logo{
+        font-size: 30px;
+        color: rgb(58, 209, 184);
+        font-style: italic;
+        font-weight: bold;
+        position: relative;
+        right: 570px;
+        bottom: 470px;
+        text-shadow: 2px 5px 5px;
+    }
+    
+    .img{
+        position: relative;
+        right: 550px;
+        bottom: 430px;
+        height: 100px;
+        width: 130px;
+    }
+}
+
+@media (min-width: 20px ) and (max-width: 480px ){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-image: url(./snowy-mountain-peak-starry-galaxy-majesty-generative-ai.jpg);
+        background-size:  cover;
+    }
+    
+    
+    .form{
+        border: 0.5px solid;
+        padding: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        backdrop-filter: blur(6px);
+        box-shadow: 5px 10px 10px;
+        position: relative;
+        top: 100px;
+    }
+    
+    .form h1 {
+        font-size: 30px;
+         font-family: "Poppins" , sans-serif ;
+         justify-content: center;
+         display: flex;
+         position: relative;
+         top: -10px;
+         color: aliceblue;
+    }
+    
+    .input-box {
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+        position: relative;
+        right: 25px;
+        bottom:  12px;
+    }
+    
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        font-size: 10px;
+        color: #fff;
+        padding: 0px 35px 0px 25px;
+    }
+    
+    .input-box input::placeholder {
+        color: aliceblue;
+        font-size: 12px;
+    }
+    
+    .fa-address-book{
+       position: relative;
+       left: 260px;
+       bottom: 35px;
+       color: #fff;
+       
+    }
+    .fa-unlock-alt{
+        position: relative;
+        left: 260px;
+        bottom: 35px;
+        color: #fff;
+    }
+    .remember-forget{
+        position: relative;
+        right: 20px;
+        bottom: 30px;
+        
+    }
+    .remember-forget a{
+        position: relative;
+        left: 50px;
+        text-decoration: none;
+        
+        
+    }
+    .btn{
+        width: 100%;
+        height: 40px;
+        border-radius: 25px;
+        background: #fff;
+        border: none;
+        outline: none;
+        box-shadow: 0 0 10px rgba(0 , 0 , 0 , .1);
+        cursor: pointer;
+        font-size: #333;
+        font-weight: 600;
+    }
+    
+}
+
+
